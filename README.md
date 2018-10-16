@@ -1,7 +1,7 @@
 # js-summary
 js 积累总结
 
-### 1 相等运算符 算法细节
+### 1、 相等运算符 算法细节
 
 1. ReturnIfAbrupt(x).
 
@@ -54,7 +54,7 @@ Return the result of performing Strict Equality Comparison x === y.
 	返回false。
 	
 	
-### 2 访问对象原型的 3 种方法
+### 2、 访问对象原型的 3 种方法
 
 1. Person.prototype
 
@@ -69,7 +69,7 @@ Return the result of performing Strict Equality Comparison x === y.
 	这个属性暴露对象内部可以访问的原型属性
 	
 	
-### 3 通过 new 创建实例
+### 3、 通过 new 创建实例
 
 通过 new 创建实例会经历以下 4 个步骤 
 
