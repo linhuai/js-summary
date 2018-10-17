@@ -34,3 +34,18 @@
   var daojishi = timer(600000)
   daojishi()
 ```
+
+### 时间戳转为时间
+
+```
+  timestampToTime: function (timestamp) {
+    var date = new Date(timestamp)
+    var Y = date.getFullYear()
+    var M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1)
+    var D = date.getDate() < 10 ? '0' + date.getDate() : date.getDate()
+    // var h = date.getHours()
+    // var m = date.getMinutes()
+    // var s = date.getSeconds()
+    return Y + '-' + M + '-' + D
+  }
+```
