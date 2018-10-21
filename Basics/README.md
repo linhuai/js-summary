@@ -10,7 +10,7 @@
   
   使用 **typeof** 可以判断数据类型
   
-  返回值 String (number, string, boolean, object, symbol)
+  返回值 String (undefined, number, string, boolean, object, symbol)
   
   ```
   console.log(typeof 1) // number
